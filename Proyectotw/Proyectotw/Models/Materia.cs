@@ -2,11 +2,10 @@
 
 namespace Proyectotw.Models
 {
-    public class HomeController : Controller
+    public class Materia : Controller
     {
-        public IActionResult Index()
-        {
-            return View();
-        }
+        public int NRC { get; set; }
+        public string Maestro { get; set; }
+        public int Cant_Alumnos { get; set; }
     }
 }

@@ -4,9 +4,9 @@ namespace Proyectotw.Models
 {
     public class Alumno : Controller
     {
-        public IActionResult Index()
-        {
-            return View();
-        }
+        public int Matricula { get; set; }
+        public string Nombre { get; set; }
+        public string apellido  { get; set; }
+        public int NRC { get; set; }
     }
 }
