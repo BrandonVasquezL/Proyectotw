@@ -1,12 +1,15 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Proyectotw.Models;
+using Microsoft.EntityFrameworkCore;
 
 namespace Proyectotw.Data
 {
-    public class BDContext : Controller
+    public class BDContext : DbContext
     {
-        public IActionResult Index()
+        public BDContext(DbContextOptions options) : base(options)
         {
-            return View();
         }
+
+        public DbSet<Alumno> Alumnos { get; set; }
+        public DbSet<Materia> Materias { get; set; }
     }
 }
