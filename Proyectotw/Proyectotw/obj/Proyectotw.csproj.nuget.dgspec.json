@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\PC\\Desktop\\Proyectotw\\Proyectotw\\Proyectotw\\Proyectotw.csproj": {}
+    "C:\\Users\\Brandon\\Source\\Repos\\Proyectotw\\Proyectotw\\Proyectotw\\Proyectotw.csproj": {}
   },
   "projects": {
-    "C:\\Users\\PC\\Desktop\\Proyectotw\\Proyectotw\\Proyectotw\\Proyectotw.csproj": {
+    "C:\\Users\\Brandon\\Source\\Repos\\Proyectotw\\Proyectotw\\Proyectotw\\Proyectotw.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\PC\\Desktop\\Proyectotw\\Proyectotw\\Proyectotw\\Proyectotw.csproj",
+        "projectUniqueName": "C:\\Users\\Brandon\\Source\\Repos\\Proyectotw\\Proyectotw\\Proyectotw\\Proyectotw.csproj",
         "projectName": "Proyectotw",
-        "projectPath": "C:\\Users\\PC\\Desktop\\Proyectotw\\Proyectotw\\Proyectotw\\Proyectotw.csproj",
-        "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\PC\\Desktop\\Proyectotw\\Proyectotw\\Proyectotw\\obj\\",
+        "projectPath": "C:\\Users\\Brandon\\Source\\Repos\\Proyectotw\\Proyectotw\\Proyectotw\\Proyectotw.csproj",
+        "packagesPath": "C:\\Users\\Brandon\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Brandon\\Source\\Repos\\Proyectotw\\Proyectotw\\Proyectotw\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Brandon\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
