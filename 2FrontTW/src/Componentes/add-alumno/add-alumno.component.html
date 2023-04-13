@@ -1,0 +1,30 @@
+<div class="container my-5">
+    <h1 class="mb-3">Agregar Nuevo Estudiante</h1>
+    <div class = "col-6">
+    <form #form="ngForm" (ngSubmit)="agregarAlumno()">
+        <div class="form-group">
+            <label for="matricula">Matricula</label>
+            <input type="text" class="form-control" id="matricula" name = "matricula"  placeholder="Ingresa la matriculadel alumno" [(ngModel)]="agregarEstudianteRequest.matricula">
+            <small id="matriculalHelp" class="form-text text-muted">Ingresa la matricula del alumno.</small>
+          </div>
+          <div class="form-group">
+            <label for="nombre">Nombre</label>
+            <input type="text" class="form-control" id="nombre" name = "nombre"  placeholder="Ingresa el nombre del alumno" [(ngModel)]="agregarEstudianteRequest.nombre">
+            <small id="nombrelHelp" class="form-text text-muted">Ingresa el nombre del alumno.</small>
+          </div>
+          <div class="form-group">
+            <label for="apellido">Apellido</label>
+            <input type="text" class="form-control" id="apellido" name = "apellido"  placeholder="Ingresa el apellido paterno del alumno"[(ngModel)]="agregarEstudianteRequest.apellido">
+            <small id="apellidoHelp" class="form-text text-muted">Ingresa el apellido del alumno</small>
+          </div>
+          <div class="form-group">
+            <label for="edad">NRC</label>
+            <input type="number" class="form-control" id="nrc" name="nrc" placeholder="Ingresa el nrc de la materia" [(ngModel)]="agregarEstudianteRequest.nrc">
+            <small id="nrclHelp" class="form-text text-muted">Ingresa el nrc de la materia.</small>
+          </div>
+          
+          <button type="submit" class="btn btn-primary">Agregar</button>
+    </form>
+    </div>
+
+</div>
