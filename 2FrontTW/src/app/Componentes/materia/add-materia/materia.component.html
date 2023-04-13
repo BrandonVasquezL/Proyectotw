@@ -1,1 +1,24 @@
-<p>materia works!</p>
+<div class="container my-5">
+    <h1 class="mb-3">Agregar Materia</h1>
+    <div class = "col-6">
+    <form #form="ngForm" (ngSubmit)="agregarMateria()">
+          <div class="form-group">
+            <label for="nrc">NRC</label>
+            <input type="number" class="form-control" id="nrc" name="nrc" placeholder="Ingresa el nrc de la materia" [(ngModel)]="agregarMateriaRequest.nrc">
+            <small id="nrclHelp" class="form-text text-muted">Ingresa el nrc de la materia.</small>
+          </div>
+          <div class="form-group">
+            <label for="maestro">Maestro</label>
+            <input type="text" class="form-control" id="maestro" name = "maestro"  placeholder="Ingresa el nombre del maestro"[(ngModel)]="agregarMateriaRequest.maestro">
+            <small id="maestroHelp" class="form-text text-muted">Ingresa el nombre del maestro</small>
+          </div>
+          <div class="form-group">
+            <label for="cant_alumnos">Cantidad de alumnos</label>
+            <input type="number" class="form-control" id="cant_alumnos" name = "cant_alumnos"  placeholder="Ingresa la canidad de alumnos" [(ngModel)]="agregarMateriaRequest.cant_alumnos">
+            <small id="cant_alumnosHelp" class="form-text text-muted">Ingresa el nombre del alumno.</small>
+          </div>
+          <button type="submit" class="btn btn-primary">Agregar</button>
+    </form>
+    </div>
+
+</div>
